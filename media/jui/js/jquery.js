@@ -11,7 +11,8 @@
  *
  * Date: 2015-04-28T16:19Z
  */
-
+if (typeof jQuery == 'undefined') {
+	
 (function( global, factory ) {
 
 	if ( typeof module === "object" && typeof module.exports === "object" ) {
@@ -10349,3 +10350,5 @@ if ( typeof noGlobal === strundefined ) {
 return jQuery;
 
 }));
+
+}
